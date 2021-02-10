@@ -28,11 +28,12 @@ export class InicioComponent implements OnInit {
   constructor(
     private router: Router,
     private postagemService: PostagemService,
-    private temaService: TemaService,
-    private authService: AuthService
+    private temaService: TemaService
   ) { }
 
   ngOnInit() {
+    
+    window.scroll(0,0)
 
     if(environment.token == ''){
       this.router.navigate(['/entrar'])
@@ -61,7 +62,7 @@ export class InicioComponent implements OnInit {
   }
 
   findByIdUser(){
-    this.authService.getByIdUser(this.idUser).subscribe((resp: User) =>{
+    this.postagemService.getByIdUser(this.idUser).subscribe((resp: User) =>{
       this.user = resp
     })
   }

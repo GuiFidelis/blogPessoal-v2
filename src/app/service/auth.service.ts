@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { environment } from './../../environments/environment.prod';
 import { UserLogin } from './../model/UserLogin';
 import { HttpClient } from '@angular/common/http';
@@ -11,7 +12,8 @@ import { User } from '../model/User';
 export class AuthService {
 
   constructor(
-    private http: HttpClient
+    private http: HttpClient,
+    private router: Router
   ) { }
 
   entrar(userLogin: UserLogin): Observable<UserLogin>{
@@ -20,10 +22,6 @@ export class AuthService {
 
   cadastrar(user: User): Observable<User>{
     return this.http.post<User>('http://localhost:8080/usuarios/cadastrar', user)
-  }
-
-  getByIdUser(id: number): Observable<User>{
-    return this.http.get<User>(`http://localhost:8080/usuarios/${id}`)
   }
 
   logado(){
@@ -35,5 +33,5 @@ export class AuthService {
 
     return ok
   }
-  
+
 }
