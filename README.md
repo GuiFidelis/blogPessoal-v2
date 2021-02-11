@@ -9,7 +9,8 @@
   <p align="center">
   <a href="#-sobre-o-projeto">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-inicialização">Inicialização</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-usabilidade">Usabilidade</a>
+  <a href="#-usabilidade">Usabilidade</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Licença</a>
 </p>
 
 <p align="center">
@@ -86,8 +87,6 @@ ng serve
 http://localhost:4200
 ```
 
-
-
 <!-- USAGE EXAMPLES -->
 ## 💻 Usabilidade
 
@@ -97,6 +96,15 @@ Para que todas as funções sejam realizadas, é necessário que a aplicação s
 
 
 <!-- LICENSE -->
+## 📝 Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes
 
 <!-- CONTACT -->
+---
 
+   <div align="center">
+
+   [![Linkedin Badge](https://img.shields.io/badge/-Guilherme%20Fidelis-292929?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/guifidelis/)](https://www.linkedin.com/in/guifidelis/)
+
+   </div>
