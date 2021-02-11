@@ -8,7 +8,7 @@
   <h1 align="center">Projeto Blog Pessoal (Front-End)</h1>
   <p align="center">
   <a href="#-sobre-o-projeto">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-inicialização">Inicialização/a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-inicialização">Inicialização</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-usabilidade">Usabilidade</a>
 </p>
 
