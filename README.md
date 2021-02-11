@@ -1,27 +1,93 @@
-# BlogPessoal
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://brazil.generation.org/">
+    <img src="https://i.imgur.com/a7DquFK.png" alt="Logo" >
+  </a>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.7.
+  <h1 align="center">Projeto Blog Pessoal (Front-End)</h1>
+  
 
-## Development server
+<!-- ABOUT THE PROJECT -->
+## Sobre o Projeto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<p>O Blog Pessoal é um projeto que foi desenvolvido durante os módulos II e III do Bootcamp da Generation Brasil, no qual os usuários poderão realizar um cadastro e criar postagens sobre diversos temas, assim como visualizar postagens de outros usuários.
+<br />
+Durante o módulo III, o foco do projeto foi a construção do front-end, responsável por realizar as principais interações com o usuário.</p>
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Ferramentas e Tecnologias
 
-## Build
+* [Angular](https://angular.io/)
+* [Bootstrap](https://getbootstrap.com)
+* [JQuery](https://jquery.com/)
+* [PopperJS](https://popper.js.org/)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+<!-- GETTING STARTED -->
+## Inicialização
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Para inicializar o projeto siga as etapas abaixo.
 
-## Running end-to-end tests
+### Pre-Requisitos
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+* Angular
+```sh
+npm install -g @angular/cli
+```
+* Bootstrap
+```sh
+npm install bootstrap@latest --save
+```
+* JQuery
+```sh
+npm install jquery@latest --save
+```
+* PopperJS
+```sh
+npm install popper.js --save
+```
+* ngx-order-pipe
+```sh
+npm install ngx-order-pipe --save
+```
+* ngx-bootstrap
+```sh
+npm install ngx-bootstrap --save
+```
 
-## Further help
+### Instalação
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Clone o repositório
+```sh
+git clone https://github.com/GuiFidelis/blogPessoal-v2.git
+```
+2. Instalando pacotes NPM
+```sh
+npm install
+```
+3. Inicialize o servidor
+```sh
+ng serve
+```
+4. Realize o acesso via browser
+```sh
+http://localhost:4200
+```
+
+
+
+<!-- USAGE EXAMPLES -->
+## Usabilidade
+
+Para que todas as funções sejam realizadas, é necessário que a aplicação seja inicializada juntamente com o back-end do projeto que pode ser encontrado no repositório abaixo:
+
+[Projeto Blog Pessoal (Back-End)](https://github.com/GuiFidelis/blogPessoal)
+
+
+<!-- CONTRIBUTING -->
+
+<!-- LICENSE -->
+
+<!-- CONTACT -->
+
