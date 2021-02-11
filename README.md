@@ -36,7 +36,7 @@ Durante o módulo III, o foco do projeto foi a construção do front-end, respon
 
 
 <!-- GETTING STARTED -->
-## Inicialização
+## :wrench: Inicialização
 
 Para inicializar o projeto siga as etapas abaixo.
 
