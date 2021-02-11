@@ -4,9 +4,15 @@
   <a href="https://brazil.generation.org/">
     <img src="https://i.imgur.com/a7DquFK.png" alt="Logo" >
   </a>
-
+</p>
   <h1 align="center">Projeto Blog Pessoal (Front-End)</h1>
-  
+
+<p align="center">
+ <img align=center src="https://i.imgur.com/ZaS7poz.jpg" alt="Tela principal Blog Pessoal" width="800">
+</p>
+ 
+
+
 
 <!-- ABOUT THE PROJECT -->
 ## Sobre o Projeto
@@ -29,7 +35,7 @@ Durante o módulo III, o foco do projeto foi a construção do front-end, respon
 
 Para inicializar o projeto siga as etapas abaixo.
 
-### Pre-Requisitos
+### Pré-Requisitos
 
 * Angular
 ```sh
