@@ -90,7 +90,7 @@ http://localhost:4200
 <!-- USAGE EXAMPLES -->
 ## 💻 Usabilidade
 
-Para que todas as funções sejam realizadas, é necessário que a aplicação seja inicializada juntamente com o back-end do projeto que pode ser encontrado no repositório abaixo:
+Para que todas as funções sejam realizadas, é necessário que a aplicação seja inicializada juntamente com o back-end do projeto, que pode ser encontrado no repositório abaixo:
 
 [Projeto Blog Pessoal (Back-End)](https://github.com/GuiFidelis/blogPessoal)
 
