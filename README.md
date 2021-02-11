@@ -6,6 +6,11 @@
   </a>
 </p>
   <h1 align="center">Projeto Blog Pessoal (Front-End)</h1>
+  <p align="center">
+  <a href="#-sobre-o-projeto">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-inicialização">Inicialização/a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-usabilidade">Usabilidade</a>
+</p>
 
 <p align="center">
  <img align=center src="https://i.imgur.com/ZaS7poz.jpg" alt="Tela principal Blog Pessoal" width="800">
@@ -15,14 +20,14 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## Sobre o Projeto
+## 📖 Sobre o Projeto
 
 <p>O Blog Pessoal é um projeto que foi desenvolvido durante os módulos II e III do Bootcamp da Generation Brasil, no qual os usuários poderão realizar um cadastro e criar postagens sobre diversos temas, assim como visualizar postagens de outros usuários.
 <br />
 Durante o módulo III, o foco do projeto foi a construção do front-end, responsável por realizar as principais interações com o usuário.</p>
 
 
-## Ferramentas e Tecnologias
+## 🚀 Ferramentas e Tecnologias
 
 * [Angular](https://angular.io/)
 * [Bootstrap](https://getbootstrap.com)
