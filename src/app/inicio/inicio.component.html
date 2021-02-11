@@ -28,7 +28,7 @@
 
 <div class="container mb-5 mt-5" id="postagens">
 
-  <nav>
+  <nav *ngIf='listaPostagens.length != 0'>
     <div class="nav nav-tabs d-flex justify-content-center" id="nav-tab" role="tablist">
 
       <a class="nav-item nav-link active text-secondary font-weight-bold" id="nav-todasPostagens-tab" data-toggle="tab" href="#todasPostagens" role="tab" aria-controls="nav-todasPostagens" aria-selected="true">Todas as Postagens</a>
@@ -40,11 +40,15 @@
     </div>
   </nav>
 
+  <h2 *ngIf='listaPostagens.length == 0' class="text-center text-secondary mt-5">
+    Não existem postagens ainda...
+  </h2>
+
   <div class="tab-content mt-5" id="nav-tabContent">
 
     <div class="tab-pane fade show active" id="todasPostagens" role="tabpanel" aria-labelledby="nav-todasPostagens-tab">
 
-      <div class="row d-flex justify-content-center mt-5 mb-5">
+      <div *ngIf='listaPostagens.length != 0' class="row d-flex justify-content-center mt-5 mb-5">
         <div class="col-md-4">
           <div class="form-group">
             <input type="text" class="form-control" id="titulo" placeholder="Digite um titulo de postagem para pesquisar" [(ngModel)]='tituloPost' (keyup)='findByTituloPostagem()'>
@@ -123,10 +127,6 @@
   </div>
 
 </div>
-
-
-
-
 
 <!-- Modal -->
 <div class="modal fade" id="novaPostagem" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
